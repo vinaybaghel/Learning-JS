@@ -50,3 +50,32 @@ console.log(typeof scoreValue);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+
+
+
+
+//***************************************************************
+ 
+// Stack (Primitive),  Heap(Non Primitive)
+
+let myYoutubename = "vinay"
+
+let anothername = myYoutubename
+anothername = "padhai karte hai"
+
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "vinay@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
