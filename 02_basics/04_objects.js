@@ -70,7 +70,7 @@ console.log(instructor);
 
 // {
 //     "name": "Vinay Baghel",
-//     "coursename": "js in hindi",
+//     "coursename": "js  in hindi",
 //     "price": "free"
 // }
 
